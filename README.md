@@ -5,14 +5,11 @@
 
 ## 1. Informations Générales :
 
-Ceci est mon portfolio
-<br> Projet individuel
+Projet individuel de portfolio pour présenter mes différents projets
 
 
 ### Stack utilisée :
-front : [![stack front](https://skillicons.dev/icons?i=vuejs,tailwind)](https://skillicons.dev) 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-outils : [![outils](https://skillicons.dev/icons?i=vscode,git,vite,figma)](https://skillicons.dev)
+ [![stack](https://skillicons.dev/icons?i=vuejs,tailwind,vscode,git,vite,figma)](https://skillicons.dev) 
 
 <br><br>
 
