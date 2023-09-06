@@ -3,7 +3,14 @@
 </script>
 
 <template>
-    <div  class="font-hachi text-3xl text-fuchsia-950">
-        <p class=" ">Hi, I'm Camille Hebert </p>
+    <div  id="home" class=" text-fuchsia-950 flex justify-evenly p-12">
+        <div>
+            <p class=" font-hachi py-16 text-6xl text-center">Hi, I'm </p>
+            <p class=" font-hachi py-16 text-6xl text-center">Camille Hebert !</p>
+        </div>
+        <img src="../assets/img/photo.jpg" 
+            alt="My Image"
+            id="profilepicture"
+            class="p-12" />
     </div>
 </template>
