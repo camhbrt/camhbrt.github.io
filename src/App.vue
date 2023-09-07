@@ -16,7 +16,6 @@ import Contacts from './components/Contacts.vue';
     <Projects/>
     <Contacts/>
     <Footer/>
-
   </div>
   <!-- <HelloWorld msg="Vite + Vue" /> -->
 </template>
