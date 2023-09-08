@@ -8,7 +8,7 @@
             <p class=" font-hachi py-16 text-6xl text-center">Hi, I'm </p>
             <p class=" font-hachi py-16 text-6xl text-center">Camille Hebert !</p>
         </div>
-        <img src="../assets/img/photo.jpg" 
+        <img src="/img/photo.jpg" 
             alt="My Image"
             id="profilepicture"
             class="p-12" />

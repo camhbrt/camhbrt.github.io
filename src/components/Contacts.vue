@@ -15,7 +15,7 @@
           <textarea id="message" name="message" placeholder="message content" rows="6" required class="m-4 p-1 rounded-lg border border-fuchsia-950 "></textarea>
         </div>
         <div class="flex justify-end">
-          <button type="submit" class="py-2 px-8 m-4 rounded-xl bg-fuchsia-950 text-orange-200">Send</button>
+          <button type="submit" class="py-2 px-8 m-4 rounded-xl border border-fuchsia-950 bg-fuchsia-950 text-orange-200 active:bg-rose-600">Send</button>
         </div>
       </form>
     </div>
