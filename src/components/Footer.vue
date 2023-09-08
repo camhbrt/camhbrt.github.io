@@ -1,5 +1,4 @@
 <script setup>
-    console.log("voici le footer")
 </script>
 
 <template>

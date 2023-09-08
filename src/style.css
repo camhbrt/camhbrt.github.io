@@ -17,4 +17,9 @@
       border-radius: 40% 60%;
     }
   }
+
+  .backdrop-blur-lg {
+    backdrop-filter: blur(30px);
+    background-color: rgba(250, 250, 250, 0.25);
+  }
   

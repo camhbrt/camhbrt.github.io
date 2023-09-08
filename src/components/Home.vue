@@ -1,9 +1,8 @@
 <script setup>
-    console.log("voici la partie Home")
 </script>
 
 <template>
-    <div  id="home" class=" text-fuchsia-950 flex justify-evenly p-12">
+    <div  id="home" class=" text-fuchsia-950 flex justify-evenly p-20">
         <div>
             <p class=" font-hachi py-16 text-6xl text-center">Hi, I'm </p>
             <p class=" font-hachi py-16 text-6xl text-center">Camille Hebert !</p>
