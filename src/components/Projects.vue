@@ -15,9 +15,9 @@
 </script>
 
 <template>
-    <div id="projects" class=" text-fuchsia-950 uppercase">
+    <div id="projects" class=" text-fuchsia-950 ">
       <div class="px-20">
-        <p class="font-poiret text-3xl py-6">Projects</p>
+        <p class="font-poiret text-3xl py-6 uppercase">Projects</p>
       </div>
       <div class="flex flex-wrap justify-center">
         <Card
