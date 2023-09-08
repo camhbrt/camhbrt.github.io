@@ -1,5 +1,7 @@
 <script setup>
+  import { ref, computed } from 'vue';
   import Card from './Card.vue';
+  import ProjectDetail from './ProjectDetail.vue';
 
   const data = [
     { title: "Mystery Quest", description: "desc1", img:"/img/mystery-mini.png"},
@@ -10,6 +12,15 @@
     { title: "Dataviz SNCF", description: "desc2", img:"/img/dataviz-mini.png" },
     { title: "Amelia's Castle", description: "desc2", img:"/img/amelias-mini.png" },
   ];
+
+  const showDetail = ref(false);
+  const selectedData = ref(null)
+
+
+  const showSelectedData = (index) => {
+    selectedData.value = data[index];
+    showDetail.value = true;
+  };
 
 </script>
 
@@ -22,7 +33,12 @@
         <Card
           v-for="(item, index) in data"
           :key="index"
-          :data="item"/>
+          :data="item"
+          @click="showSelectedData(index)"/>
       </div>
+      <ProjectDetail 
+        v-if="showDetail"
+        :data="selectedData"
+        @close="showDetail = false" />
     </div>
 </template>

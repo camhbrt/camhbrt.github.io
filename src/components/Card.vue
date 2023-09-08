@@ -1,7 +1,15 @@
 <script setup>
+    import { ref, defineProps } from 'vue';
+
     const props = defineProps({
-        data: Object,
-    })
+    data: Object,
+    });
+
+    const showSelectedData = () => {
+    emit('click');
+    };
+
+
 </script>
 
 <template>
@@ -11,7 +19,9 @@
             alt="Image"
             class="w-full h-full object-cover rounded-3xl"
         />
-        <div class="absolute inset-0 flex items-center text-center justify-center opacity-0 group-hover:opacity-90 bg-black text-purple-300 rounded-3xl text-4xl font-hachi">
+        <div 
+            class="absolute inset-0 flex items-center text-center justify-center opacity-0 group-hover:opacity-90 bg-black text-purple-300 rounded-3xl text-4xl font-hachi"
+            @click="openDetail = true">
             <p>{{ data.title }}</p>
         </div>
     </div>
