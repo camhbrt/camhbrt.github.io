@@ -4,13 +4,13 @@
   import ProjectDetail from './ProjectDetail.vue';
 
   const data = [
-    { title: "Mystery Quest", description: "desc1", img:"/img/mystery-mini.png"},
-    { title: "Pawpawpaw !", description: "desc2", img:"/img/pawpawpaw-mini.png" },
-    { title: "Maëlle", description: "desc2", img:"/img/maelle-mini.png" },
-    { title: "Around the meuble", description: "desc2", img:"/img/meuble-mini.png" },
+    { title: "Mystery Quest", description: "desc1", img:"./img/mystery-mini.png"},
+    { title: "Pawpawpaw !", description: "desc2", img:"./img/pawpawpaw-mini.png" },
+    { title: "Maëlle", description: "desc2", img:"./img/maelle-mini.png" },
+    { title: "Around the meuble", description: "desc2", img:"./img/meuble-mini.png" },
     { title: "Motivational quotes", description: "desc2", img:"https://picsum.photos/400" },
-    { title: "Dataviz SNCF", description: "desc2", img:"/img/dataviz-mini.png" },
-    { title: "Amelia's Castle", description: "desc2", img:"/img/amelias-mini.png" },
+    { title: "Dataviz SNCF", description: "desc2", img:"./img/dataviz-mini.png" },
+    { title: "Amelia's Castle", description: "desc2", img:"./img/amelias-mini.png" },
   ];
 
   const showDetail = ref(false);
