@@ -1,6 +1,6 @@
 <script setup>
 
-    import { defineProps, defineEmits } from 'vue';
+    // import { defineProps, defineEmits } from 'vue';
 
     const close = defineEmits(['close']);
     const {data} = defineProps(['data']);
