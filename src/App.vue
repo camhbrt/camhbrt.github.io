@@ -1,5 +1,4 @@
 <script setup>
-// import HelloWorld from './components/HelloWorld.vue'
 import Navbar from './components/Navbar.vue';
 import Home from './components/Home.vue';
 import Footer from './components/Footer.vue';
@@ -12,11 +11,9 @@ import Contacts from './components/Contacts.vue';
   <div class="bg-gradient-to-bl from-orange-200 to-purple-300 h-full">
     <Navbar/>
     <Home/>
-    <p>coucou</p>
     <About/>
     <Projects/>
     <Contacts/>
     <Footer/>
   </div>
-  <!-- <HelloWorld msg="Vite + Vue" /> -->
 </template>
