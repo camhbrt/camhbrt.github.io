@@ -12,6 +12,7 @@ import Contacts from './components/Contacts.vue';
   <div class="bg-gradient-to-bl from-orange-200 to-purple-300 h-full">
     <Navbar/>
     <Home/>
+    <p>coucou</p>
     <About/>
     <Projects/>
     <Contacts/>
