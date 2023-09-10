@@ -17,7 +17,8 @@
           <textarea id="message" name="message" placeholder="message content" rows="6" required class="m-4 p-1 rounded-lg border border-fuchsia-950 "></textarea>
         </div>
         <div class="flex justify-end">
-          <button type="submit" class="py-2 px-8 m-4 rounded-xl border border-fuchsia-950 bg-fuchsia-950 text-orange-200 hover:bg-rose-600 active:text-orange-50">Send</button>
+          <!-- <button type="submit" class="py-2 w-20 m-4 font-medium rounded-xl border border-fuchsia-950 text-fuchsia-950 hover:bg-fuchsia-950 hover:text-purple-100 active:tracking-wider">Send</button> -->
+          <button type="submit" class="py-2 w-20 m-4 font-medium rounded-xl bg-fuchsia-950 text-purple-100 hover:bg-fuchsia-950/80 active:tracking-wide active:bg-fuchsia-950">Send</button>
         </div>
       </form>
     </div>
