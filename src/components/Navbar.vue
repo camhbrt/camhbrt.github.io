@@ -47,7 +47,7 @@
             </svg>
           </a>
 
-          <a href="public/assets/CV_Camille_Hebert_DeveloppeuseWeb.pdf" download="CV_Camille_Hebert_DeveloppeuseWeb.pdf">
+          <a href="assets/CV_Camille_Hebert_DeveloppeuseWeb.pdf" download="CV_Camille_Hebert_DeveloppeuseWeb.pdf">
             <svg 
               id="cv"
               xmlns="http://www.w3.org/2000/svg" 
