@@ -1,7 +1,5 @@
 <script setup>
 
-    // import { defineProps, defineEmits } from 'vue';
-
     const close = defineEmits(['close']);
     const {data} = defineProps(['data']);
 
@@ -19,8 +17,17 @@
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
             </svg>
         </button>
-        <div class="text-2xl font-semibold mb-4">{{ data.title }}</div>
+        <img
+            :src=data.img
+            alt="Image"
+            class="h-64 rounded-3xl"
+        />
+        <div class="text-2xl font-semibold mb-4 font-hachi">{{ data.title }}</div>
+        <div class="font-bold mb-4 text-rose-600 uppercase">{{ data.stack }}</div>
         <div class="mb-4">{{ data.description }}</div>
+        <div class="text-sm font-semibold mb-4">{{ data.date }}</div>
+        <div class="text-sm font-semibold mb-4">durée : {{ data.length }}</div>
+        <div class="text-sm font-semibold mb-4">auteurs : {{ data.authors }}</div>
         </div>
     </div>
 </template>

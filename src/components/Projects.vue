@@ -4,7 +4,16 @@
   import ProjectDetail from './ProjectDetail.vue';
 
   const data = [
-    { title: "Mystery Quest", description: "desc1", img:"./img/mystery-mini.png"},
+    { 
+      title: "Mystery Quest", 
+      img:"./img/mystery-mini.png",
+      description: "Mystery Quest est une application mobile de chasse au trésor via géolocalisation. Authentification, affichage des quêtes issues d'une base de données, gestion de la géolocalisation, gestion des score",
+      date: "Septembre 2023",
+      stack: "React-native | Expo | Node.JS | Express",
+      tools: "Figma, Notions, Git, Github, VSCode",
+      authors: "Camille Hébert, Alan Kalkan, Sayadyna Mehraik",
+      length: "4 semaines",
+    }, 
     { title: "Pawpawpaw !", description: "desc2", img:"./img/pawpawpaw-mini.png" },
     { title: "Maëlle", description: "desc2", img:"./img/maelle-mini.png" },
     { title: "Around the meuble", description: "desc2", img:"./img/meuble-mini.png" },
