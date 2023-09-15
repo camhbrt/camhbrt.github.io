@@ -87,9 +87,9 @@
 </script>
 
 <template>
-    <div id="projects" class=" text-fuchsia-950  lg:m-10 mt-4">
+    <div id="projects" class=" text-fuchsia-950  lg:m-4 mt-4">
       <div class="lg:px-20 p-4">
-        <p class="font-poiret text-5xl py-20">Here are some projects I worked on :</p>
+        <p class="font-hachi text-4xl py-20">Here are some projects I worked on :</p>
       </div>
       <div class="flex flex-wrap justify-center">
         <Card

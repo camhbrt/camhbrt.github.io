@@ -11,6 +11,6 @@
         <img src="/img/photo.jpg" 
             alt="My Image"
             id="profilepicture"
-            class="object-cover  h-auto lg:p-12 self-center p-4"  />
+            class="object-cover  h-auto lg:p-12 p-4 mx-auto "  />
     </div>
 </template>
