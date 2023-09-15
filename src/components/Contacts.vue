@@ -3,14 +3,14 @@
 
 <template>
     <div id="contacts" class=" text-fuchsia-950 m-10">
-      <div class="px-20">
-        <p class="font-poiret text-5xl py-20">Feel free to send me an e-mail to discuss further</p>
+      <div class="lg:px-20">
+        <p class="font-poiret text-3xl py-6 lg:text-5xl lg:py-20">Feel free to send me an e-mail to discuss further</p>
       </div>
 
       <form 
         action="https://formspree.io/f/maygjgqo" 
         method="POST" 
-        class=" border border-fuchsia-950 p-6 w-1/2 mx-auto rounded-3xl mb-32 bg-neutral-50/40" >
+        class=" border border-fuchsia-950 lg:p-6 lg:w-1/2 mx-auto rounded-3xl lg:mb-32 bg-neutral-50/40" >
         <div class="flex flex-col">
           <input type="text" id="name" name="name" placeholder="name" required class="m-4 p-1 rounded-lg border border-fuchsia-950 ">
           <input type="email" id="email" name="email" placeholder="e-mail" required class="m-4 p-1 rounded-lg border border-fuchsia-950 ">
