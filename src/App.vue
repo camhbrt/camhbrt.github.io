@@ -12,9 +12,9 @@ import Animation from './components/Animation.vue';
   <div class="bg-gradient-to-bl from-orange-200 to-purple-300">
     <!-- <Navbar/> -->
     <Home/>
-    <!-- <Animation/> -->
-    <!-- <About/> -->
-    <!-- <Projects/> -->
+    <Animation/>
+    <About/>
+    <Projects/>
     <Contacts/>
     <Footer/>
   </div>

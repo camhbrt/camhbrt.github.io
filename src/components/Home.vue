@@ -2,7 +2,7 @@
 </script>
 
 <template>
-    <div  id="home" class=" text-fuchsia-950 lg:flex justify-evenly h-screen">
+    <div  id="home" class=" text-fuchsia-950 lg:flex justify-evenly lg:h-screen">
         <div class="self-center lg:text-6xl text-4xl">
             <p class=" font-hachi leading-loose text-center">Hi, I'm Camille Hébert ! Welcome to my portfolio</p>
             <!-- <p class=" font-hachi py-16 text-center">Camille Hebert !</p> -->
@@ -11,6 +11,6 @@
         <img src="/img/photo.jpg" 
             alt="My Image"
             id="profilepicture"
-            class="object-cover w-full h-auto lg:p-12 self-center p-4"  />
+            class="object-cover  h-auto lg:p-12 self-center p-4"  />
     </div>
 </template>
