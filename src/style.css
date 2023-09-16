@@ -30,3 +30,8 @@
 .svg-fill:hover {
   fill: #e11d48;
 }
+
+.scroll-container {
+  overflow: hidden; 
+  position: relative; 
+}
