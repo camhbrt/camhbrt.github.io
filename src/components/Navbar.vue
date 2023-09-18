@@ -12,7 +12,7 @@
 </script>
 
 <template>
-    <div  class="uppercase flex pt-4 fixed w-screen z-50 backdrop-blur-lg text-fuchsia-950 font-outfit">
+    <div  class="uppercase flex pt-4 fixed w-screen z-40 backdrop-blur-lg text-fuchsia-950 font-outfit">
         <ul class="flex justify-evenly basis-10/12 text-2xl">
           <li class="hover:cursor-pointer hover:text-rose-600"><a @click="scrollToSection('home')">Home</a></li>
           <li class="hover:cursor-pointer hover:text-rose-600"><a @click="scrollToSection('about')">About</a></li>
