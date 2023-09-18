@@ -9,7 +9,7 @@ import Animation from './components/Animation.vue';
 </script>
 
 <template>
-  <div class="bg-gradient-to-bl from-orange-200 to-purple-300">
+  <div class="bg-gradient-to-bl from-orange-200 to-purple-300 font-outfit">
     <Navbar class="hidden sm:flex"/>
     <Home/>
     <Animation/>

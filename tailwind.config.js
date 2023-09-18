@@ -7,8 +7,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        poiret: ['Poiret One', 'cursive'], 
-        hachi: ['Hachi Maru Pop', 'sans'], 
+        hachi: ['Hachi Maru Pop', 'cursive'], 
+        outfit: ['Outfit', 'sans']
       },
     },
   },

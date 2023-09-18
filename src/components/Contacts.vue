@@ -4,7 +4,8 @@
 <template>
     <div id="contacts" class=" text-fuchsia-950 m-10">
       <div class="lg:px-20">
-        <p class="font-poiret text-3xl py-6 lg:text-5xl lg:py-20">Feel free to send me an e-mail to discuss further</p>
+        <p class="font-hachi text-3xl py-6 lg:text-6xl lg:py-10">Contacts</p>
+        <p class="text-2xl py-6 py-10">N'hésitez pas à me contacter pour en savoir plus, je me ferai une joie de vous répondre.</p>
       </div>
 
       <form 

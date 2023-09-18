@@ -1,0 +1,1 @@
+<iframe title="deezer-widget" src="https://widget.deezer.com/widget/auto/playlist/11765062941" width="210" height="150" frameborder="0" allowtransparency="true" allow="encrypted-media; clipboard-write"></iframe>
