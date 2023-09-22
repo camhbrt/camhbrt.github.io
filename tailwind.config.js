@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        hachi: ['Hachi Maru Pop', 'cursive'], 
+        love: ['Love ya like a sister', 'cursive'], 
         outfit: ['Outfit', 'sans']
       },
     },

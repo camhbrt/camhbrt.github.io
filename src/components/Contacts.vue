@@ -2,10 +2,10 @@
 </script>
 
 <template>
-    <div id="contacts" class=" text-fuchsia-950 m-10">
-      <div class="lg:px-20">
-        <p class="font-hachi text-3xl py-6 lg:text-6xl lg:py-10">Contacts</p>
-        <p class="text-2xl py-6 py-10">N'hésitez pas à me contacter pour en savoir plus, je me ferai une joie de vous répondre.</p>
+    <div id="contacts" class=" text-fuchsia-950 justify-evenly lg:py-20 lg:mx-20 mx-6 ">
+      <div class="">
+        <p class="lg:text-5xl text-4xl">Contacts</p>
+        <p class="text-2xl py-6 font-light">Feel free to send me an email to discuss further</p>
       </div>
 
       <form 

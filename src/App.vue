@@ -13,9 +13,9 @@ import Animation from './components/Animation.vue';
     <Navbar class="hidden sm:flex"/>
     <Home/>
     <Animation/>
-    <About/>
-    <Animation/>
     <Projects/>
+    <Animation/>
+    <About/>
     <Animation/>
     <Contacts/>
     <Footer/>
