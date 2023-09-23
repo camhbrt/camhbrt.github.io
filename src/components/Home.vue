@@ -2,31 +2,31 @@
 </script>
 
 <template>
-    <div  id="home" class=" text-fuchsia-950 justify-evenly lg:flex lg:h-screen lg:py-20 lg:mx-20 mx-6 ">
-        <div class="p-10 flex flex-col justify-evenly">
-            <p class="self-center xl:text-6xl lg:text-5xl text-4xl leading-loose text-center">
+    <div  id="home" class=" text-fuchsia-950 justify-evenly sm:pt-10 px-6 md:flex lg:pr-20 lg:h-screen">
+        <div class="flex flex-col justify-evenly py-10 lg:pl-10 ">
+            <h1 
+                class="text-4xl text-center pb-6 md:text-5xl lg:text-6xl xl:text-7xl font-flowers">
                 Hi, I'm Camille Hébert
+            </h1>
+            <p class="text-xl self-center text-center font-light sm:w-3/4 xl:text-3xl lg:text-2xl xl:leading-relaxed lg:leading-relaxed md:leading-relaxed ">
+                Web / mobile developer looking for an apprenticeship starting this October. Welcome to my portfolio !
             </p>
-            <p class="self-center xl:text-3xl lg:text-2xl text-1xl  text-center font-light">
-                Web / mobile developer looking for an apprenticeship <br/> starting this October. Welcome to my portfolio !
-            </p>
-            <div class="flex justify-center">
-
-                <p class="self-center xl:text-3xl lg:text-2xl text-xl leading-loose text-center font-love text-rose-600">
-                    my resume : 
-                </p>
-                <a href="assets/CV_Camille_Hebert_DeveloppeuseWeb.pdf" download="CV_Camille_Hebert_DeveloppeuseWeb.pdf">
-                    <font-awesome-icon 
-                    icon="fa-solid fa-download"
-                    size="2x"
-                    class="hover:text-rose-600 px-2" />
+            <div class="flex justify-center mt-4"> <!---->
+                <a 
+                    href="assets/CV_Camille_Hebert_DeveloppeuseWeb.pdf" 
+                    download="CV_Camille_Hebert_DeveloppeuseWeb.pdf"
+                    class="flex justify-center my-2 bg-fuchsia-950 text-purple-100 shadow-lg hover:bg-fuchsia-950/80 active:tracking-wide active:bg-fuchsia-950  rounded-full p-2"> <!---->
+                    Download my resume
+                    <font-awesome-icon icon="fa-solid fa-download" class="px-2 py-1" />
                 </a>
             </div>
         </div>
-        <img src="/img/photo.jpg" 
+        <div class="flex justify-center md:flex-none md:pt-10">
+            <img src="/img/photo.jpg" 
             alt="My Image"
             id="profilepicture"
-            class="object-cover  h-auto mx-auto "  
-        />
+            class="object-cover justify-center"  
+            />
+        </div>
     </div>
 </template>

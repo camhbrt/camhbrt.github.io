@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        love: ['Love ya like a sister', 'cursive'], 
+        flowers: ['Send Flowers', 'cursive'], 
         outfit: ['Outfit', 'sans']
       },
     },

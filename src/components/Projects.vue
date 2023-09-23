@@ -17,8 +17,9 @@
 </script>
 
 <template>
-    <div id="projects" class=" text-fuchsia-950  lg:m-4 mt-4">
-      <div class="lg:px-20 p-4">
+    <div id="projects" class=" text-fuchsia-950 m-20">
+      <div class="">
+        <p class="lg:text-5xl text-4xl">Projects:</p>
         <p class="font-hachi text-4xl py-20">Here are some projects I worked on :</p>
       </div>
       <div class="flex flex-wrap justify-center">
