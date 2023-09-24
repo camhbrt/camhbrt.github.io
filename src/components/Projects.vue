@@ -11,7 +11,7 @@
 
 
   const showSelectedData = (index) => {
-    selectedData.value = data[index];
+    selectedData.value = data.projects[index];
     showDetail.value = true;
   };
 
@@ -26,7 +26,7 @@
       </div>
       <div class="flex flex-wrap justify-center"><!---->
         <Card
-          v-for="(item, index) in data"
+          v-for="(item, index) in data.projects"
           :key="index"
           :data="item"
           @click="showSelectedData(index)"/>

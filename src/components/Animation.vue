@@ -41,7 +41,7 @@
   </script>
   
   <template>
-      <div class="scroll-container mt-4 px-4 lg:px-12" ref="scrollContainer">
+      <div class="scroll-container mt-4 px-6 lg:w-1/2 sm:w-2/3 sm:mx-auto text-center " ref="scrollContainer">
         <svg 
           class="svg-animation"
           viewBox="0 0 1351 177"
