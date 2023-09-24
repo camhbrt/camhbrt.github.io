@@ -3,6 +3,7 @@
   import Card from './Card.vue';
   import ProjectDetail from './ProjectDetail.vue';
   import data from '../data'
+  import Title from './Title.vue';
 
 
   const showDetail = ref(false);
@@ -17,12 +18,13 @@
 </script>
 
 <template>
-    <div id="projects" class=" text-fuchsia-950 m-20">
-      <div class="">
-        <p class="lg:text-5xl text-4xl">Projects:</p>
-        <p class="font-hachi text-4xl py-20">Here are some projects I worked on :</p>
+    <div id="projects" class=" text-fuchsia-950 "><!--m-20-->
+      <Title :title="'Projects'"/>
+      <div class="m-4">
+        <p class="text-lg font-light">Here are some projects I worked on at Ada Tech School or in my free time.</p><!-- py-20-->
+        <!-- <p>all projects - full-stack React.js PHP Lua React-native personnal team</p> -->
       </div>
-      <div class="flex flex-wrap justify-center">
+      <div class="flex flex-wrap justify-center"><!---->
         <Card
           v-for="(item, index) in data"
           :key="index"

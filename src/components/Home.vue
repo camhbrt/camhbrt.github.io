@@ -9,13 +9,13 @@
                 Hi, I'm Camille Hébert
             </h1>
             <p class="text-xl self-center text-center font-light sm:w-3/4 xl:text-3xl lg:text-2xl xl:leading-relaxed lg:leading-relaxed md:leading-relaxed ">
-                Web / mobile developer looking for an apprenticeship starting this October. Welcome to my portfolio !
+                Software developer looking for an apprenticeship starting this October. Welcome to my portfolio !
             </p>
             <div class="flex justify-center mt-4"> <!---->
                 <a 
                     href="assets/CV_Camille_Hebert_DeveloppeuseWeb.pdf" 
                     download="CV_Camille_Hebert_DeveloppeuseWeb.pdf"
-                    class="flex justify-center my-2 bg-fuchsia-950 text-purple-100 shadow-lg hover:bg-fuchsia-950/80 active:tracking-wide active:bg-fuchsia-950  rounded-full p-2"> <!---->
+                    class="flex justify-center my-2 rounded-full p-2 shadow-lg bg-fuchsia-950 text-purple-100  hover:bg-fuchsia-950/80 active:tracking-wide active:bg-fuchsia-950 "> <!---->
                     Download my resume
                     <font-awesome-icon icon="fa-solid fa-download" class="px-2 py-1" />
                 </a>
