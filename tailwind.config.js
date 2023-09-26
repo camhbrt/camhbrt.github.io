@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      screens:{
+        'xs' : '360px'
+      },
       fontFamily: {
         flowers: ['Send Flowers', 'cursive'], 
         outfit: ['Outfit', 'sans']

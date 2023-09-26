@@ -2,7 +2,7 @@
 </script>
 
 <template>
-    <div  id="home" class=" text-fuchsia-950 justify-evenly sm:pt-10 px-6 md:flex lg:pr-20 lg:h-screen">
+    <div  id="home" class=" text-fuchsia-950 justify-evenly pb-10 sm:pt-10 md:flex lg:pr-20 lg:h-screen">
         <div class="flex flex-col justify-evenly py-10 lg:pl-10 ">
             <h1 
                 class="text-4xl text-center pb-6 md:text-5xl lg:text-6xl xl:text-7xl font-flowers">

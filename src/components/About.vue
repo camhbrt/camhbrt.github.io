@@ -4,17 +4,17 @@
 </script>
 
 <template>
-  <div id="about" class=" text-fuchsia-950 m-4 lg:mx-20"> <!--m-20-->
+  <div id="about" class=" text-fuchsia-950 lg:mx-20 py-6"> <!--m-20-->
     <Title :title="'About me'"/>
     <div class="font-light lg:flex lg:flex-row-reverse"><!--flex -->
       
-      <div id="colonne droite" class="lg:basis-3/4 px-20">
+      <div id="colonne droite" class="lg:basis-3/4 lg:px-20 ">
 
-        <p id="biography" class="text-justify lg:text-xl lg:pb-10">I used to be a middle school music teacher for six years, but I decided to exchange the language of music for the language of programming, and now I have developed a strong enthusiasm for the creative potential offered by software devlopment. <br/><br/>I am currently studying at Ada Tech School, the first feminist and inclusive programming school in Paris, with a pedagogy focused on hands-on practice.</p><!-- text-center lg:w-3/5 lg:pt-20 lg:text-2xl-->
+        <p id="biography" class="text-justify lg:text-xl mb-6">I used to be a middle school music teacher for six years, but I decided to exchange the language of music for the language of programming, and now I have developed a strong enthusiasm for the creative potential offered by software devlopment. <br/><br/>I am currently studying at Ada Tech School, the first feminist and inclusive programming school in Paris, with a pedagogy focused on hands-on practice.</p><!-- text-center lg:w-3/5 lg:pt-20 lg:text-2xl-->
         
         <div id="ligne 2" class="lg:flex lg:flex-row-reverse lg:justify-between">
 
-          <div id="parcours" class="rounded-3xl bg-fuchsia-950/10 p-4">
+          <div id="parcours" class="rounded-3xl bg-fuchsia-950/10 p-4 mb-6 xs:w-80 mx-auto">
             <div id="formation" class="pb-4">
               <p class="font-extrabold uppercase text-center">Formation</p>
               <ul class="pl-4">
@@ -38,7 +38,7 @@
             </div>
           </div>
         
-          <div id="coordonnées" class="flex flex-col my-4 leading-loose lg:border lg:rounded-3xl lg:border-fuchsia-950 lg:p-2">
+          <div id="coordonnées" class="flex flex-col my-6 leading-loose lg:border lg:rounded-3xl lg:border-fuchsia-950 lg:p-2">
             <p class="font-extrabold uppercase text-center">coordonnées</p>
             <ul class="text-center">
               <li><font-awesome-icon icon="fa-solid fa-location-dot" class="" /> paris, france</li>
@@ -53,11 +53,11 @@
             </ul>
           </div>
         
+        </div>
+
       </div>
 
-    </div>
-
-      <div id="compétences" class="lg:basis-1/4 bg-fuchsia-950/10 rounded-3xl p-2 mx-10">
+      <div id="compétences" class=" bg-fuchsia-950/10 rounded-3xl p-2 flex flex-col xs:w-80 mx-auto">
 
         <div id="Hard skills" class="py-2">
           <p class="font-extrabold uppercase text-center">hard skills</p>

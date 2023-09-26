@@ -3,7 +3,7 @@ import Title from './Title.vue';
 </script>
 
 <template>
-  <div id="contacts" class=" text-fuchsia-950 m-4"><!--lg:py-20 lg:mx-20 mx-6 justify-evenly -->
+  <div id="contacts" class=" text-fuchsia-950 py-6"><!--lg:py-20 lg:mx-20 mx-6 justify-evenly -->
     <Title :title="'Contacts'"/>
     <p class="text-lg font-light pb-2 lg:text-center lg:text-xl">
       Feel free to reach out to me via the form below to discuss further, or connect with me on Linkedin :
