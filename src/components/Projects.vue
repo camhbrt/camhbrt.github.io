@@ -20,7 +20,7 @@
 <template>
     <div id="projects" class=" text-fuchsia-950 py-6"><!--m-20-->
       <Title :title="'Projects'"/>
-      <p class="text-lg font-light">Here are some projects I worked on at Ada Tech School or in my free time.</p><!-- py-20-->
+      <p class="text-lg font-light md:text-center">Here are some projects I worked on at Ada Tech School or in my free time.</p><!-- py-20-->
       <div class="flex flex-wrap justify-center"><!---->
         <Card
           v-for="(item, index) in data.projects"

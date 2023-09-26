@@ -6,11 +6,11 @@
 <template>
   <div id="about" class=" text-fuchsia-950 lg:mx-20 py-6"> <!--m-20-->
     <Title :title="'About me'"/>
-    <div class="font-light lg:flex lg:flex-row-reverse"><!--flex -->
+    <div class="font-light md:flex md:flex-row-reverse"><!--flex -->
       
-      <div id="colonne droite" class="lg:basis-3/4 lg:px-20 ">
+      <div id="colonne droite" class="flex flex-col mx-auto">
 
-        <p id="biography" class="text-justify lg:text-xl mb-6">I used to be a middle school music teacher for six years, but I decided to exchange the language of music for the language of programming, and now I have developed a strong enthusiasm for the creative potential offered by software devlopment. <br/><br/>I am currently studying at Ada Tech School, the first feminist and inclusive programming school in Paris, with a pedagogy focused on hands-on practice.</p><!-- text-center lg:w-3/5 lg:pt-20 lg:text-2xl-->
+        <p id="biography" class="text-justify lg:text-xl mb-6 xs:w-80 xs:mx-auto">I used to be a middle school music teacher for six years, but I decided to exchange the language of music for the language of programming, and now I have developed a strong enthusiasm for the creative potential offered by software devlopment. <br/><br/>I am currently studying at Ada Tech School, the first feminist and inclusive programming school in Paris, with a pedagogy focused on hands-on practice.</p><!-- text-center lg:w-3/5 lg:pt-20 lg:text-2xl-->
         
         <div id="ligne 2" class="lg:flex lg:flex-row-reverse lg:justify-between">
 
@@ -38,7 +38,7 @@
             </div>
           </div>
         
-          <div id="coordonnées" class="flex flex-col my-6 leading-loose lg:border lg:rounded-3xl lg:border-fuchsia-950 lg:p-2">
+          <div id="coordonnées" class="flex flex-col my-6 leading-loose lg:border lg:rounded-3xl lg:border-fuchsia-950 lg:p-2 md:hidden">
             <p class="font-extrabold uppercase text-center">coordonnées</p>
             <ul class="text-center">
               <li><font-awesome-icon icon="fa-solid fa-location-dot" class="" /> paris, france</li>
@@ -57,12 +57,14 @@
 
       </div>
 
-      <div id="compétences" class=" bg-fuchsia-950/10 rounded-3xl p-2 flex flex-col xs:w-80 mx-auto">
+      <div class="mx-auto">
 
-        <div id="Hard skills" class="py-2">
-          <p class="font-extrabold uppercase text-center">hard skills</p>
-          <div class="flex flex-wrap justify-between">
-            <div 
+        <div id="compétences" class=" bg-fuchsia-950/10 rounded-3xl p-2 flex flex-col xs:w-80 mx-auto h-max">
+          
+          <div id="Hard skills" class="py-2">
+            <p class="font-extrabold uppercase text-center">hard skills</p>
+            <div class="flex flex-wrap justify-between">
+              <div 
               v-for="(skill, index) in data.skills" 
               :key="index"
               class="flex flex-col items-center m-2">
@@ -71,7 +73,7 @@
             </div>
           </div>
         </div>
-          
+        
         <div id="Soft skills">
           <p class="font-extrabold uppercase text-center">soft skills</p>
           <ul class="text-center m-4">
@@ -82,9 +84,24 @@
             <li><font-awesome-icon icon="fa-solid fa-bolt" class="text-rose-600" /> Persévérance</li>
           </ul>
         </div> 
-
+        
+      </div>
+      <div id="coordonnées" class="flex flex-col my-6 leading-loose lg:border lg:rounded-3xl lg:border-fuchsia-950 lg:p-2 hidden md:block">
+        <p class="font-extrabold uppercase text-center">coordonnées</p>
+        <ul class="text-center">
+          <li><font-awesome-icon icon="fa-solid fa-location-dot" class="" /> paris, france</li>
+          <li><font-awesome-icon icon="fa-solid fa-at" class="" /> camille.hebert22@gmail.com</li>
+          <li><font-awesome-icon icon="fa-solid fa-phone" class="" /> 06.84.40.81.25</li>
+          <li>
+            <a href="https://github.com/camhbrt" target="_blank" class="hover:text-rose-600"><font-awesome-icon icon="fa-brands fa-github" class="" /> /camhbrt</a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/camille-hebert-dev/" target="_blank" class="hover:text-rose-600"><font-awesome-icon icon="fa-brands fa-linkedin" class="" /> /camille-hebert-dev</a>
+          </li>
+        </ul>
       </div>
       
+    </div>
     </div>
   </div>
 </template>

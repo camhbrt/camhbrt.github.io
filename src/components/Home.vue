@@ -15,7 +15,7 @@
                 <a 
                     href="assets/CV_Camille_Hebert_DeveloppeuseWeb.pdf" 
                     download="CV_Camille_Hebert_DeveloppeuseWeb.pdf"
-                    class="flex justify-center my-2 rounded-full p-2 shadow-lg bg-fuchsia-950 text-purple-100  hover:bg-fuchsia-950/80 active:tracking-wide active:bg-fuchsia-950 "> <!---->
+                    class="flex justify-center my-2 rounded-full p-2 shadow-lg bg-fuchsia-950 text-orange-100  hover:bg-fuchsia-950/80 active:tracking-wide active:bg-fuchsia-950 "> <!---->
                     Download my resume
                     <font-awesome-icon icon="fa-solid fa-download" class="px-2 py-1" />
                 </a>
