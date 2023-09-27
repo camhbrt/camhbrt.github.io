@@ -26,10 +26,17 @@ import { faUsers } from '@fortawesome/free-solid-svg-icons';
 import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
 import { faHandHoldingHeart } from '@fortawesome/free-solid-svg-icons';
 import { faBolt } from '@fortawesome/free-solid-svg-icons';
+import { faHouse } from '@fortawesome/free-solid-svg-icons';
+import { faAddressCard } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faImages } from '@fortawesome/free-regular-svg-icons';
+
+
+
 
 
 /* add icons to the library */
-library.add(faUserSecret, faDownload, faFilePdf, faGithub, faLinkedin, faComputer, faMusic, faFlaskVial, faLocationDot, faAt, faPhone, faUsers, faRotate, faMagnifyingGlass, faHandHoldingHeart, faBolt)
+library.add(faUserSecret, faDownload, faFilePdf, faGithub, faLinkedin, faComputer, faMusic, faFlaskVial, faLocationDot, faAt, faPhone, faUsers, faRotate, faMagnifyingGlass, faHandHoldingHeart, faBolt, faHouse, faAddressCard, faEnvelope, faImages)
 
 
 createApp(App)
