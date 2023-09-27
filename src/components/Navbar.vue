@@ -12,8 +12,10 @@
 </script>
 
 <template>
-    <div  class="uppercase flex justify-around py-4 fixed w-screen z-40 backdrop-blur-lg  text-fuchsia-950 font-outfit font-extralight bottom-0 sm:bottom-auto "> <!--retirer bottom-0 à partir de sm -->
-        <ul class="flex justify-evenly basis-10/12 text-2xl">
+    <div  class="flex justify-around py-4 fixed w-screen z-40 backdrop-blur-lg  text-fuchsia-950 font-outfit font-extralight bottom-0 sm:bottom-auto "> <!--retirer bottom-0 à partir de sm -->
+        <!-- <img src="img/logo.png" alt="logo" class="h-8 px-4"> -->
+        <p class="mx-auto font-flowers text-2xl lg:text-3xl hidden md:block">Camille Hébert</p>
+        <ul class="flex justify-evenly basis-10/12 text-2xl uppercase">
           <li class="hover:cursor-pointer hover:text-rose-600 ">
             <a @click="scrollToSection('home')" class="flex">
               <font-awesome-icon icon="fa-solid fa-home" class="hover:text-rose-600 px-2" />

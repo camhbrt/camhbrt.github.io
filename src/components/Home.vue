@@ -21,11 +21,11 @@
                 </a>
             </div>
         </div>
-        <div class="flex justify-center md:flex-none md:pt-10 lg:pt-24 xl:pt-40">
+        <div class="flex justify-center md:flex-none">
             <img src="/img/photo.jpg" 
             alt="My Image"
             id="profilepicture"
-            class="object-cover justify-center"  
+            class="object-cover justify-center my-auto"  
             />
         </div>
     </div>
