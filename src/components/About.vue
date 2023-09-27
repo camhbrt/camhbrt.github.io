@@ -85,7 +85,7 @@
         </div>
 
 
-        <div id="coordonnées" class="flex flex-col my-6 leading-loose   lg:p-2 hidden md:block xl:hidden">
+        <div id="coordonnées" class="md:flex flex-col my-6 leading-loose   lg:p-2 hidden  xl:hidden">
           <p class="font-extrabold uppercase text-center">coordonnées</p>
           <ul class="text-center">
             <li><font-awesome-icon icon="fa-solid fa-location-dot" class="" /> paris, france</li>
