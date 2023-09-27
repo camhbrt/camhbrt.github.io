@@ -21,7 +21,7 @@
                 </a>
             </div>
         </div>
-        <div class="flex justify-center md:flex-none md:pt-10">
+        <div class="flex justify-center md:flex-none md:pt-10 lg:pt-24 xl:pt-40">
             <img src="/img/photo.jpg" 
             alt="My Image"
             id="profilepicture"
