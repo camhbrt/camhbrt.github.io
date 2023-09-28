@@ -16,7 +16,7 @@
 
           <div id="parcours" class="rounded-3xl bg-fuchsia-950/10 p-4 mb-6 xs:w-80 mx-auto xl:mx-0 xl:mb-0">
             <div id="formation" class="pb-4">
-              <p class="font-extrabold uppercase text-center">Formation</p>
+              <p class="font-extrabold uppercase text-center">Education</p>
               <ul class="pl-4">
                 <li><font-awesome-icon icon="fa-solid fa-computer" class="text-rose-600 pr-2" /> Ada Tech School</li>
                 <li><font-awesome-icon icon="fa-solid fa-music" class="text-rose-600 pr-2" /> Master MEEF Musique</li>
@@ -24,7 +24,7 @@
               </ul>
             </div>  
             <div id="expérience">
-              <p class="font-extrabold uppercase text-center">Expérience</p>
+              <p class="font-extrabold uppercase text-center">Experience</p>
               <ul class="pl-4 leading-none">
                 <li class="pb-2">
                   Professeure d'éducation musicale<br/>
@@ -39,7 +39,7 @@
           </div>
         
           <div id="coordonnées" class="flex flex-col my-6 leading-loose lg:border lg:rounded-3xl lg:border-rose-600 lg:p-2 md:hidden xl:block">
-            <p class="font-extrabold uppercase text-center">coordonnées</p>
+            <p class="font-extrabold uppercase text-center">contact information</p>
             <ul class="text-center">
               <li><font-awesome-icon icon="fa-solid fa-location-dot" class="" /> paris, france</li>
               <li><font-awesome-icon icon="fa-solid fa-at" class="" /> camille.hebert22@gmail.com</li>
@@ -75,18 +75,18 @@
           <div id="Soft skills">
             <p class="font-extrabold uppercase text-center">soft skills</p>
             <ul class="text-center m-4">
-              <li><font-awesome-icon icon="fa-solid fa-rotate" class="text-rose-600" /> Adaptabilité</li>
-              <li><font-awesome-icon icon="fa-solid fa-users" class="text-rose-600" /> Intelligence sociale</li>
-              <li><font-awesome-icon icon="fa-solid fa-magnifying-glass" class="text-rose-600" /> Soucis du détail</li>
-              <li><font-awesome-icon icon="fa-solid fa-hand-holding-heart" class="text-rose-600" /> Humilité</li>
-              <li><font-awesome-icon icon="fa-solid fa-bolt" class="text-rose-600" /> Persévérance</li>
+              <li><font-awesome-icon icon="fa-solid fa-rotate" class="text-rose-600" /> Adaptability</li>
+              <li><font-awesome-icon icon="fa-solid fa-users" class="text-rose-600" /> Social intelligence</li>
+              <li><font-awesome-icon icon="fa-solid fa-magnifying-glass" class="text-rose-600" /> Attention to detail</li>
+              <li><font-awesome-icon icon="fa-solid fa-hand-holding-heart" class="text-rose-600" /> Humility</li>
+              <li><font-awesome-icon icon="fa-solid fa-bolt" class="text-rose-600" /> Perseverance</li>
             </ul>
           </div> 
         </div>
 
 
         <div id="coordonnées" class="md:flex flex-col my-6 leading-loose   lg:p-2 hidden  xl:hidden">
-          <p class="font-extrabold uppercase text-center">coordonnées</p>
+          <p class="font-extrabold uppercase text-center">Contact information</p>
           <ul class="text-center">
             <li><font-awesome-icon icon="fa-solid fa-location-dot" class="" /> paris, france</li>
             <li><font-awesome-icon icon="fa-solid fa-at" class="" /> camille.hebert22@gmail.com</li>

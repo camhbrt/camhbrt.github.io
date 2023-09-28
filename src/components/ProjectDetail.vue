@@ -22,9 +22,9 @@ const closeDetail = () => {
         <div class=""><!--p-2-->
           <p class="text-4xl font-semibold mb-4 font-hachi text-center"> {{ data.title }} </p><!---->
           <p class="font-bold mb-4 text-rose-600 uppercase text-center"> {{ data.stack }} </p><!---->
-          <p v-html="data.description"></p>
-          <p class="text-sm font-semibold mb-4"> <font-awesome-icon icon="fa-solid fa-calendar-days" size="xl"/> : <span class="font-light">{{ data.date }}</span></p><!---->
-          <p class="text-sm font-semibold mb-4"> <font-awesome-icon icon="fa-solid fa-users" class="" size="lg" /> : <span class="font-light">{{ data.authors }}</span></p><!---->
+          <p class="text-sm font-semibold mb-2"> <font-awesome-icon icon="fa-solid fa-calendar-days" size="xl"/> : <span class="font-light">{{ data.date }}</span></p><!---->
+          <p class="text-sm font-semibold mb-2"> <font-awesome-icon icon="fa-solid fa-users" class="" size="lg" /> : <span class="font-light">{{ data.authors }}</span></p><!---->
+          <p v-html="data.description" class="mb-4"></p>
           <a :href="data.github" target="_blank" class="bg-rose-600 rounded-3xl text-rose-50 py-2 px-4 hover:bg-rose-500/80 active:bg-rose-600"> <!---->
             See project on github
             <font-awesome-icon icon="fa-brands fa-github" class="" /> <!---->
