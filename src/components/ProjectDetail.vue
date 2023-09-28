@@ -8,8 +8,8 @@ const closeDetail = () => {
 </script>
 
 <template>
-  <div class="fixed inset-0 bg-rose-100 sm:bg-black sm:bg-opacity-50 z-50 flex items-center justify-center"><!---->
-    <div class="bg-rose-100 max-w-screen-md rounded-3xl p-6 sm:shadow-lg relative"><!--lg:w-3/4-->
+  <div class="fixed inset-0 bg-rose-100 sm:bg-black sm:bg-opacity-50 z-50 flex sm:items-center justify-center overflow-auto"><!---->
+    <div class="bg-rose-100 max-w-screen-md rounded-3xl p-6 sm:shadow-lg relative "><!--lg:w-3/4-->
       
       <button @click="closeDetail" class="absolute top-2 right-4 transform translate-x-2 text-gray-500 hover:text-gray-700"><!---->
         <svg id="cross" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
