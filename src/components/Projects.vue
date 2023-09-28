@@ -36,10 +36,11 @@
       <Title :title="'Projects'"/>
       <p class="text-lg font-light md:text-center lg:text-xl">Here are some projects I worked on at Ada Tech School or in my free time.</p><!-- py-20-->
       <div id="filters" class="flex flex-wrap justify-center">
-        <button @click="showAllProjects" class="px-2 m-2 bg-rose-600 hover:bg-rose-600/80 active:bg-rose-600 text-rose-50 rounded-xl font-extralight">All projects</button>
-        <button @click="showFullstackProjects" class="px-2 m-2 bg-rose-600 hover:bg-rose-600/80 active:bg-rose-600 text-rose-50 rounded-xl font-extralight">Full-stack</button>
-        <button @click="showJavascriptProjects" class="px-2 m-2 bg-rose-600 hover:bg-rose-600/80 active:bg-rose-600 text-rose-50 rounded-xl font-extralight">Javascript</button>
-        <button @click="showPersonnalProjects" class="px-2 m-2 bg-rose-600 hover:bg-rose-600/80 active:bg-rose-600 text-rose-50 rounded-xl font-extralight">Personnal projects</button>
+        <p class="m-2">Filters : </p>
+        <button @click="showAllProjects" class="px-2 m-2 bg-rose-600 hover:bg-rose-600/80 active:bg-rose-600 text-rose-50 rounded-xl active:tracking-wide font-extralight">All projects</button>
+        <button @click="showFullstackProjects" class="px-2 m-2 bg-rose-600 hover:bg-rose-600/80 active:bg-rose-600 text-rose-50 rounded-xl active:tracking-wide font-extralight">Full-stack</button>
+        <button @click="showJavascriptProjects" class="px-2 m-2 bg-rose-600 hover:bg-rose-600/80 active:bg-rose-600 text-rose-50 rounded-xl active:tracking-wide font-extralight">Javascript</button>
+        <button @click="showPersonnalProjects" class="px-2 m-2 bg-rose-600 hover:bg-rose-600/80 active:bg-rose-600 text-rose-50 rounded-xl active:tracking-wide font-extralight">Personnal projects</button>
       </div>
       <div class="flex flex-wrap justify-center"><!---->
         <Card
