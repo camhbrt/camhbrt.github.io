@@ -41,7 +41,7 @@
           <div id="coordonnées" class="flex flex-col my-6 leading-loose lg:border lg:rounded-3xl lg:border-rose-600 lg:p-2 md:hidden xl:block">
             <p class="font-extrabold uppercase text-center">contact information</p>
             <ul class="text-center">
-              <li><font-awesome-icon icon="fa-solid fa-location-dot" class="" /> paris, france</li>
+              <li><font-awesome-icon icon="fa-solid fa-location-dot" class="" /> Paris, France</li>
               <li><font-awesome-icon icon="fa-solid fa-at" class="" /> camille.hebert22@gmail.com</li>
               <li><font-awesome-icon icon="fa-solid fa-phone" class="" /> 06.84.40.81.25</li>
               <li>
