@@ -27,11 +27,11 @@
               <p class="font-extrabold uppercase text-center">Experience</p>
               <ul class="pl-4 leading-none">
                 <li class="pb-2">
-                  Professeure d'éducation musicale<br/>
+                  Music teacher<br/>
                   <span class="text-rose-600 text-sm font-semibold">2017-2023</span>
                 </li>
                 <li>
-                  Chargée de dépôt<br/>
+                  Assistant manager<br/>
                   <span class="text-rose-600 text-sm font-semibold">2013-2016</span >
                 </li>
               </ul>

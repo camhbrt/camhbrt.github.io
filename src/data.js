@@ -1,5 +1,21 @@
 const projects = [
     { 
+      title: "MeloStream", 
+      img:"./img/melostream-mini.png",
+      tags: "react.js · typescript · API",
+      descriptionFR: "",
+      description:"MeloStream is a music streaming platform. I started this project because I wanted to practice API requests. I also aimed to learn TypeScript and improve my React skills with this project",
+      date: "October 2023",
+      stack: "React.js | Typescript | Tailwind",
+      tools: "Figma, Git, Github, VSCode",
+      authors: "Camille Hébert",
+      length: "",
+      github:"https://github.com/camhbrt/melostream",
+      fullstack:false,
+      js:true,
+      team:false
+    }, 
+    { 
       title: "Mystery Quest", 
       img:"./img/mystery-mini.png",
       tags: "react-native · express.js · mySQL",
