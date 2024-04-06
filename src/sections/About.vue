@@ -1,6 +1,6 @@
 <script setup>
-  import Title from './Title.vue';
-  import data from '../data';
+  import Title from '../components/Title.vue';
+  import data from './../data';
 </script>
 
 <template>

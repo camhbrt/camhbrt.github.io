@@ -1,9 +1,9 @@
 <script setup>
   import { ref, computed } from 'vue';
-  import Card from './Card.vue';
-  import ProjectDetail from './ProjectDetail.vue';
-  import data from '../data'
-  import Title from './Title.vue';
+  import Card from '../components/Card.vue';
+  import ProjectDetail from '../components/ProjectDetail.vue';
+  import data from './../data'
+  import Title from '../components/Title.vue';
 
 
   const showDetail = ref(false);

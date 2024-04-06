@@ -1,10 +1,10 @@
 <script setup>
 import Navbar from './components/Navbar.vue';
-import Home from './components/Home.vue';
+import Home from './sections/Home.vue';
 import Footer from './components/Footer.vue';
-import About from './components/About.vue';
-import Projects from './components/Projects.vue';
-import Contacts from './components/Contacts.vue';
+import About from './sections/About.vue';
+import Projects from './sections/Projects.vue';
+import Contacts from './sections/Contacts.vue';
 import Animation from './components/Animation.vue';
 </script>
 
