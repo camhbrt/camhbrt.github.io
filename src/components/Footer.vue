@@ -7,7 +7,7 @@
             <div></div>
 
             <div>
-                <p class=" ">© 2023 Camille Hébert. All rights reserved </p>
+                <p class=" ">© 2024 Camille Hébert. All rights reserved </p>
                 <p class="">Portfolio created with Vue.js and TailwindCSS</p>
             </div>
 
