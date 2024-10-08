@@ -8,14 +8,13 @@ const store = inject('store')
 </script>
 <template>
     <div 
-        class="fixed top-0 w-full h-10 bg-black/10 flex justify-between backdrop-blur-md"
-        
+        class="fixed top-0 w-full h-10 bg-black/10 flex justify-between backdrop-blur-md z-50"   
     >
         <!-- logo -->
          <!-- TODO: on hover devient fleur barrée et on click devient grisée, efface toutes les daisy  -->
          <div class="flex font-poiret">
              <img src="../../public/img/daisy-logo.svg"/>
-             <p class="text-3xl">Camille Hébert</p>
+             <p class="text-3xl" :class="store.isDarkMode ? 'text-slate-50':'text-slate-900'">Camille Hébert</p>
          </div>
 
         <!-- sections -->
