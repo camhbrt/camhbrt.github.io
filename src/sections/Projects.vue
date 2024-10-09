@@ -1,9 +1,10 @@
 <script setup>
   import { ref, computed } from 'vue';
   import Card from '../components/Card.vue';
-  import ProjectDetail from '../components/ProjectDetail.vue';
+  import ProjectModal from '../components/ProjectModal.vue';
   import data from './../data'
   import Title from '../components/Title.vue';
+  import { useScrollLock } from '@vueuse/core'
 
 
   const showDetail = ref(false);
@@ -11,10 +12,19 @@
   const filteredProjects = ref(data.projects);
 
 
-  const showSelectedData = (index) => {
+  const isScrollLocked = useScrollLock(document.body)
+
+  const openModal = (index) => {
     selectedData.value = data.projects[index];
     showDetail.value = true;
+    console.log('is Locked !')
+    isScrollLocked.value = true
   };
+
+  const closeModal = () => {
+    showDetail.value = false
+    isScrollLocked.value = false
+  }
 
   const showAllProjects = () => {
     filteredProjects.value = data.projects;
@@ -47,11 +57,11 @@
           v-for="(item, index) in filteredProjects"
           :key="index"
           :data="item"
-          @click="showSelectedData(index)"/>
+          @click="openModal(index)"/>
       </div>
-      <ProjectDetail 
+      <ProjectModal 
         v-if="showDetail"
         :data="selectedData"
-        @close="showDetail = false" />
+        @close="closeModal" />
     </div>
 </template>
