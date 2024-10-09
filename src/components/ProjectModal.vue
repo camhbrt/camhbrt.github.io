@@ -31,7 +31,12 @@ const closeModal = () => {
           <p class="text-sm font-semibold mb-2"> <font-awesome-icon icon="fa-solid fa-calendar-days" size="xl"/> : <span class="font-light">{{ data.date }}</span></p>
           <p class="text-sm font-semibold mb-2"> <font-awesome-icon icon="fa-solid fa-users" class="" size="lg" /> : <span class="font-light">{{ data.authors }}</span></p>
           <p v-html="data.description" class="mb-4"></p>
-          <a :href="data.github" target="_blank" class="bg-rose-600 rounded-3xl text-rose-50 py-2 px-4 hover:bg-rose-500/80 active:bg-rose-600"> 
+          <a 
+            v-if="data.github"
+            :href="data.github" 
+            target="_blank" 
+            class="bg-rose-600 rounded-3xl text-rose-50 py-2 px-4 hover:bg-rose-500/80 active:bg-rose-600"
+          > 
             See project on github
             <font-awesome-icon icon="fa-brands fa-github" class="" />
           </a>
