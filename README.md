@@ -9,7 +9,7 @@ Projet individuel de portfolio pour présenter mes différents projets
 
 
 ### Stack utilisée :
- [![stack](https://skillicons.dev/icons?i=vuejs,tailwind,vscode,git,vite,figma)](https://skillicons.dev) 
+ [![stack](https://skillicons.dev/icons?i=vuejs,tailwind,vite)](https://skillicons.dev) 
 
 <br><br>
 
@@ -22,7 +22,5 @@ npm install
 npm run dev
 ```
 
-<br><br>
 
-## 3. Aperçu :
 
