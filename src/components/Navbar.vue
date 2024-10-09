@@ -12,7 +12,7 @@
 </script>
 
 <template>
-    <div  class="flex justify-around py-4 fixed w-screen z-40 backdrop-blur-lg  text-fuchsia-950 font-outfit font-extralight bottom-0 sm:bottom-auto "> <!--retirer bottom-0 à partir de sm -->
+    <div  class="flex justify-around py-4 fixed w-screen z-10 backdrop-blur-lg  text-fuchsia-950 font-outfit font-extralight bottom-0 sm:bottom-auto "> <!--retirer bottom-0 à partir de sm -->
         <!-- <img src="img/logo.png" alt="logo" class="h-8 px-4"> -->
         <p class="mx-auto font-flowers text-2xl lg:text-3xl hidden md:block">Camille Hébert</p>
         <ul class="flex justify-evenly basis-10/12 text-2xl uppercase">
