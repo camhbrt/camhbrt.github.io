@@ -11,8 +11,15 @@ export default {
       },
       fontFamily: {
         flowers: ['Send Flowers', 'cursive'], 
-        outfit: ['Outfit', 'sans']
+        outfit: ['Outfit', 'sans'],
+        indie: ['Indie Flower', 'cursive'],
+        poiret: ['Poiret One', 'sans']
       },
+
+      animation: {
+        'spin-slow': 'spin 30s linear infinite',
+      }
+   
     },
   },
   plugins: [],

@@ -30,14 +30,14 @@ import { faHouse } from '@fortawesome/free-solid-svg-icons';
 import { faAddressCard } from '@fortawesome/free-solid-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faImages } from '@fortawesome/free-regular-svg-icons';
-import { faCalendarDays } from '@fortawesome/free-solid-svg-icons';
+import { faCalendarDays, faMoon, faSun, faCircleHalfStroke } from '@fortawesome/free-solid-svg-icons';
 
 
 
 
 
 /* add icons to the library */
-library.add(faUserSecret, faDownload, faFilePdf, faGithub, faLinkedin, faComputer, faMusic, faFlaskVial, faLocationDot, faAt, faPhone, faUsers, faRotate, faMagnifyingGlass, faHandHoldingHeart, faBolt, faHouse, faAddressCard, faEnvelope, faImages, faCalendarDays)
+library.add(faUserSecret, faDownload, faFilePdf, faGithub, faLinkedin, faComputer, faMusic, faFlaskVial, faLocationDot, faAt, faPhone, faUsers, faRotate, faMagnifyingGlass, faHandHoldingHeart, faBolt, faHouse, faAddressCard, faEnvelope, faImages, faCalendarDays, faMoon, faSun, faCircleHalfStroke)
 
 
 createApp(App)

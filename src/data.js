@@ -206,9 +206,20 @@ icon:`
     }
   ]
 
+  const text = {
+    fr: {
+      title : 'développeuse front-end',
+    },
+    en: {
+      title: 'front-end engineer',
+    }
+
+  }
+
   const data = {
     projects,
     skills,
+    text
   };
 
   export default data;
