@@ -9,7 +9,7 @@
                 Hi, I'm Camille Hébert
             </h1>
             <p class="text-xl self-center text-center font-light sm:w-3/4 xl:text-3xl lg:text-2xl xl:leading-relaxed lg:leading-relaxed md:leading-relaxed ">
-                Software developer looking for an apprenticeship starting this October. Welcome to my portfolio !
+                Web developer & front-end enthusiast, welcome to my portfolio !
             </p>
             <div class="flex justify-center mt-4"> <!---->
                 <a 
