@@ -27,6 +27,10 @@
               <p class="font-extrabold uppercase text-center">Experience</p>
               <ul class="pl-4 leading-none">
                 <li class="pb-2">
+                  Web developer at <a href="https://www.netatmo.com" class="font-medium hover:font-normal" target="_blank">Netatmo</a><br/>
+                  <span class="text-rose-600 text-sm font-semibold">2023-2024</span>
+                </li>
+                <li class="pb-2">
                   Music teacher<br/>
                   <span class="text-rose-600 text-sm font-semibold">2017-2023</span>
                 </li>
