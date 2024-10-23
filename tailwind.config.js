@@ -11,7 +11,8 @@ export default {
       },
       fontFamily: {
         flowers: ['Send Flowers', 'cursive'], 
-        outfit: ['Outfit', 'sans']
+        outfit: ['Outfit', 'sans'],
+        poiret: ['Poiret One', 'sans']
       },
     },
   },
