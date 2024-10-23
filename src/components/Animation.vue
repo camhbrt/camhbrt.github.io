@@ -41,7 +41,7 @@
   </script>
   
   <template>
-      <div class="scroll-container mt-4 px-6 lg:w-1/2 sm:w-2/3 sm:mx-auto text-center " ref="scrollContainer">
+      <div class="scroll-container mt-24 mb-12 px-6 lg:w-1/2 sm:w-2/3 sm:mx-auto text-center " ref="scrollContainer">
         <svg 
           class="svg-animation"
           viewBox="0 0 1351 177"
@@ -53,7 +53,7 @@
             ref="path" 
             class="path-animation" 
             :d="pathData" 
-            stroke="#e11d48"
+            stroke="#f59e0b"
             stroke-width="2" 
             fill="none"
             :style="{ strokeDasharray: pathLength , strokeDashoffset: pathLength }"
