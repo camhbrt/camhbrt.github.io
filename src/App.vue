@@ -10,10 +10,10 @@ import Banner from './components/Banner.vue'
 </script>
 
 <template>
-  <div class="bg-gradient-to-bl from-orange-200 to-purple-200">
+  <div class="bg-gradient-to-bl from-slate-950 to-gray-950">
     <Banner />
     <Navbar class="flex"/>
-    <div class="font-outfit px-6">
+    <div class="font-outfit font-extralight px-6">
       <Home/>
       <Animation/>
       <Projects/>
